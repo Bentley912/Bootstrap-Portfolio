@@ -8,15 +8,21 @@
 }
 .main-content{
   float:left;
-  background-color: red;
+  background-color: #ffffff;
   margin-bottom: 5em;
-  border: 3px solid rgb(61, 214, 205);
+  border: 2px solid rgb(61, 214, 205);
+  font-size:1.5em;
 }
 
 .main-content img {
   width:100%;
   height:100%;
   float:left;
+}
+
+.main-content h1{
+  font-size:2.0em;
+  color:#4aaaa5;
 }
 
 .social{
@@ -41,4 +47,44 @@ footer{
   position:relative;
   bottom:-20em;
   border-top: 5px solid green;
+}
+
+.portfolio{
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+  font-size:30px;
+  margin-bottom:2em;
+}
+.portfolio-item{
+  height:30%;
+  margin-bottom:1em;
+  position:relative;
+}
+
+.title{
+  width:100%;
+  height:5%;
+  background-color: #4aaaa5;
+  bottom:2em;
+}
+
+.portfolio img{
+  width:100%;
+  height:100%;
+}
+
+.portfolio h1{
+  font-size:1.5em;
+  color:#4aaaa5;
+}
+
+.contact h1{
+  font-size:1.5em;
+  color:#4aaaa5;
+}
+
+.contact{
+  border: 2px solid #dddddd;
+  background-color: #ffffff;
+  margin-bottom:2em;
 }
